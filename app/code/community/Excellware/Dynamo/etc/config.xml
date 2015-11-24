@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Excellware_Dynamo>
+            <version>1.0.0</version>
+        </Excellware_Dynamo>
+    </modules>
+    <global>
+        <models>
+            <excellware_dynamo>
+                <class>Excellware_Dynamo_Model</class>
+            </excellware_dynamo>
+            <catalog>
+                <rewrite>
+                    <product_api_v2>Excellware_Dynamo_Model_Product_Api_V2</product_api_v2>
+                </rewrite>
+            </catalog>
+        </models>
+    </global>
+</config>
